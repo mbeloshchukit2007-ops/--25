@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Калькулятор додавання з історією</title>
+</head>
+<body>
+    <h2>Простий калькулятор</h2>
+
+    <div class="calc-box">
+        <input type="text" id="num1" placeholder="Перше число">
+        <span>+</span>
+        <input type="text" id="num2" placeholder="Друге число">
+        <span>=</span>
+        <span id="output">0</span>
+    </div>
+
+    <br>
+    <button id="calcBtn" onclick="calculate()">Порахувати</button>
+
+    <h3>Історія</h3>
+    <ul id="historyList"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
