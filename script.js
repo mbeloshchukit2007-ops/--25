@@ -4,7 +4,7 @@ const secondField = document.getElementById("num2");
 const outSpan = document.getElementById("output");
 const logList = document.getElementById("historyList");
 
-// Основна функція розрахунку
+// Основна функція розрахунку суми
 function calculate() {
     // Отримуємо введені значення та переводимо в числовий тип
     const val1 = Number(firstField.value);
